@@ -3,6 +3,7 @@ Version: 2.1.0
 Date: 2026-09-16
   Features:
     - Updated for Factorio 2.1.
+    - Published as a separate mod, "tree_collision-2-1", so it can coexist with the original on the mod portal. It is marked incompatible with "tree_collision"; disable the original before enabling this one.
     - Space Age plants (the plantable Nauvis tree and the Gleba fruit trees) now get smaller collision boxes as well.
     - Added startup settings for the tree and plant collision box sizes, for skipping plants, and for preserving forest density.
   Changes:

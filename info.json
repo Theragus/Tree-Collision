@@ -1,13 +1,15 @@
 {
-  "name": "tree_collision",
+  "name": "tree_collision-2-1",
   "version": "2.1.0",
-  "title": "Tree Collision",
+  "title": "Tree Collision (2.1)",
   "author": "skomick",
+  "contact": "https://github.com/theragus/tree-collision/issues",
   "homepage": "https://github.com/theragus/tree-collision",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.0",
-    "? space-age"
+    "? space-age",
+    "! tree_collision"
   ],
-  "description": "Makes the collision boxes for trees much smaller for easy passage through dense forests."
+  "description": "Makes the collision boxes for trees much smaller for easy passage through dense forests. A fork of skomick's Tree Collision, updated for Factorio 2.1."
 }
