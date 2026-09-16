@@ -1,0 +1,13 @@
+{
+  "name": "tree_collision",
+  "version": "2.1.0",
+  "title": "Tree Collision",
+  "author": "skomick",
+  "homepage": "https://github.com/theragus/tree-collision",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.0",
+    "? space-age"
+  ],
+  "description": "Makes the collision boxes for trees much smaller for easy passage through dense forests."
+}

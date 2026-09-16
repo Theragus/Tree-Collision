@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 2026-09-16
+  Features:
+    - Updated for Factorio 2.1.
+    - Space Age plants (the plantable Nauvis tree and the Gleba fruit trees) now get smaller collision boxes as well.
+    - Added startup settings for the tree and plant collision box sizes, for skipping plants, and for preserving forest density.
+  Changes:
+    - Map generation now uses the original collision box, so generated forests keep their vanilla density instead of packing trees together.
+    - Trees keep their original sticker box, so fire and poison stickers still cover the whole tree.
+    - Trees whose collision box is already smaller than the configured size are left untouched instead of being enlarged.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-10-21
+  Changes:
+    - Updated for Factorio 2.0.
